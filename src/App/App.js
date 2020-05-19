@@ -5,7 +5,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h2>Inside Sports Roster</h2>
+        <h2>Sports Roster</h2>
         <button className="btn btn-dark">Sports</button>
       </div>
     );
