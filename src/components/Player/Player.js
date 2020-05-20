@@ -11,7 +11,7 @@ class Player extends React.Component {
     const { player } = this.props;
     return (
       <div className="Player col-md-3">
-        <div className="card playerCard mb-3">
+        <div className="card playerCard mb-3 mx-auto">
           <img class="card-img-top" src={player.imageUrl} alt="player pic"/>
           <div class="card-body">
             <h5 className="card-title">{player.name}</h5>
