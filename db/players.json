@@ -1,0 +1,122 @@
+{
+  "player1": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/tyler-motte-2020-39.jpg",
+    "name": "Tyler Motte",
+    "position": "Left Wing",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player2": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/oscar-fantenberg-2020-39.jpg",
+    "name": "Oscar Fantenberg",
+    "position": "Defenseman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player3": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/joshua-leivo-2020-39.jpg",
+    "name": "Josh Leivo",
+    "position": "Left Wing",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player4": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/tim-schaller-2020-39.jpg",
+    "name": "Tim Schaller",
+    "position": "Centerman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player5": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/micheal-ferland-2020-39.jpg",
+    "name": "Micheal Ferland",
+    "position": "Left Wing",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player6": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/brock-boeser-2020-39.jpg",
+    "name": "Brock Boeser",
+    "position": "Right Wing",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player7": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/troy-stecher-2020-39.jpg",
+    "name": "Troy Stecher",
+    "position": "Defenseman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player8": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/jacob-markstrom-2020-39.jpg",
+    "name": "Jacob Markström",
+    "position": "Goaltender",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player9": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/jay-beagle-2020-39.jpg",
+    "name": "Jay Beagle",
+    "position": "Centerman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player10": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/christopher-tanev-2020-39.jpg",
+    "name": "Christopher Tanev",
+    "position": "Defenseman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player11": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/antoine-roussel-2020-39.jpg",
+    "name": "Antoine Roussel",
+    "position": "Left Wing",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player12": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/tyler-myers-2020-39.jpg",
+    "name": "Tyler Myers",
+    "position": "Defenseman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player13": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/tyler-toffoli-2019-40.jpg",
+    "name": "Tyler Toffoli",
+    "position": "Right Wing",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player14": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/quinn-hughes-2020-39.jpg",
+    "name": "Quinn Hughes",
+    "position": "Defenseman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player15": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/jake-virtanen-2020-39.jpg",
+    "name": "Jake Virtanen",
+    "position": "Right Wing",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player16": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/jordie-benn-2020-39.jpg",
+    "name": "Jordie Benn",
+    "position": "Defenseman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player17": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/loui-eriksson-2020-39.jpg",
+    "name": "Loui Eriksson",
+    "position": "Right Wing",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player18": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/alexander-edler-2020-39.jpg",
+    "name": "Alexander Edler",
+    "position": "Defenseman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player19": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/brandon-sutter-2020-39.jpg",
+    "name": "Brandon Sutter",
+    "position": "Centerman",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  },
+  "player20": {
+    "imageUrl": "https://www.hockeydb.com/ihdb/photos/tanner-pearson-2020-39.jpg",
+    "name": "Tanner Pearson",
+    "position": "Left Wing",
+    "uid": "eyHybYJbYVMGXHUdmMVzR3DIOa62"
+  }
+}

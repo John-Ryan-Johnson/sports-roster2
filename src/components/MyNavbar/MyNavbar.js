@@ -21,7 +21,7 @@ class MyNavbar extends React.Component {
     return (
       <div className="MyNavbar">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#">Sports Roster</a>
+          <a className="navbar-brand" href="/"><img class="logo" src="https://cdn.freebiesupply.com/logos/thumbs/2x/vancouver-canucks-logo.png" alt="Hockey Team"/></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
