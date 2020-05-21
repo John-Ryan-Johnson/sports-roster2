@@ -21,6 +21,7 @@ class TeamContainer extends React.Component {
     const makePlayers = players.map((player) => <Player key={player.id} player={player}/>);
     return (
       <div className="TeamContainer">
+        <h1 className="teamName text-white mt-3 mb-3">VANCOUVER CANUCKS</h1>
         <div className="d-flex flex-wrap">
           {makePlayers}
         </div>
