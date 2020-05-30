@@ -1,6 +1,6 @@
 import React from 'react';
 import './TeamContainer.scss';
-import playerData from '../../helpers/data/playersData';
+import playersData from '../../helpers/data/playersData';
 import authData from '../../helpers/data/authData';
 import Player from '../Player/Player';
 import PlayerForm from '../PlayerForm/PlayerForm';
@@ -9,10 +9,11 @@ class TeamContainer extends React.Component {
   state = {
     players: [],
     formOpen: false,
+    editPlayer: {},
   }
 
   getPlayers = () => {
-    playerData.getPlayersByUid(authData.getUid())
+    playersData.getPlayersByUid(authData.getUid())
       .then((players) => this.setState({ players }))
       .catch((err) => console.error(err));
   };
@@ -22,13 +23,13 @@ class TeamContainer extends React.Component {
   }
 
   removePlayer = (playerId) => {
-    playerData.deletePlayer(playerId)
+    playersData.deletePlayer(playerId)
       .then(() => this.getPlayers())
       .catch((err) => console.error('unable to delete player', err));
   }
 
   saveNewPlayer = (newPlayer) => {
-    playerData.savePlayer(newPlayer)
+    playersData.savePlayer(newPlayer)
       .then(() => {
         this.getPlayers();
         this.setState({ formOpen: false });
@@ -36,16 +37,29 @@ class TeamContainer extends React.Component {
       .catch((err) => console.error('unable to save player: ', err));
   }
 
+  putPlayer = (playerId, updatedPlayer) => {
+    playersData.updatePlayer(playerId, updatedPlayer)
+      .then(() => {
+        this.getPlayers();
+        this.setState({ formOpen: false, editPlayer: {} });
+      })
+      .catch((err) => console.error('unable to update player:', err));
+  }
+
+  editAPlayer = (player) => {
+    this.setState({ formOpen: true, editPlayer: player });
+  }
+
 
   render() {
-    const { players, formOpen } = this.state;
-    const makePlayers = players.map((player) => <Player key={player.id} player={player} removePlayer={this.removePlayer}/>);
+    const { players, formOpen, editPlayer } = this.state;
+    const makePlayers = players.map((player) => <Player key={player.id} editAPlayer={this.editAPlayer} player={player} removePlayer={this.removePlayer}/>);
 
     return (
       <div className="TeamContainer">
         <h1 className="teamName text-white mt-3 mb-3">VANCOUVER CANUCKS</h1>
         <button className="btn btn-success mb-3" onClick={() => this.setState({ formOpen: true })}>ADD NEW PLAYER</button>
-        { formOpen ? <PlayerForm saveNewPlayer={this.saveNewPlayer}/> : ''}
+        { formOpen ? <PlayerForm saveNewPlayer={this.saveNewPlayer} player={editPlayer} putPlayer={this.putPlayer}/> : ''}
         <div className="d-flex flex-wrap">
           {makePlayers}
         </div>
